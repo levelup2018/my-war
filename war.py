@@ -15,6 +15,9 @@ class Warrior:
         print('H:{}'.format(self.health))
 
 
+class SuperWarrior(Warrior):
+    attack = 100
+    health = 100
 
 class Mechnik(Warrior):
     attack = 20

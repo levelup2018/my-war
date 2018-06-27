@@ -1,5 +1,5 @@
 class Warrior:
-    attack = 15
+    attack = 150
     health = 20
     
     def real_attack(self, opp):

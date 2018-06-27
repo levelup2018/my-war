@@ -36,7 +36,7 @@ class Heler(Warrior):
     attack = 1
     health = 100
 
-class Boss(Konnica):
+class Boss12344(Konnica):
     attack = 100
 
 class Army:

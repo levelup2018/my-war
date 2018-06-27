@@ -36,6 +36,9 @@ class Heler(Warrior):
     attack = 1
     health = 100
 
+class Boss(Konnica):
+    attack = 100
+
 class Army:
     def __init__(self, cls, amount):
         self.units = []

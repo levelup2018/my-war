@@ -38,9 +38,7 @@ class Army:
         self.units = []
         for i in range(amount):
             self.units.append(cls())
-            
-class MixedArmy(Army):
-    pass
+
 
 class Battle:
     def __init__(self, army1, army2):
